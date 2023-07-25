@@ -48,6 +48,11 @@ const ProjectCard = ({
         <div className="mt-5">
           <h3 className="text-white font-bold text-[24px] ">{name}</h3>
           <p className="mt-2 text-secondary text-[14px]">{description}</p>
+          <p className="text-white text-[14px] font-bold">
+            {name === "ChatBot"
+              ? "OpenAI tokens expired. No longer functioning"
+              : ""}
+          </p>
         </div>
 
         <div className="mt-4 flex flex-wrap gap-2">
@@ -96,4 +101,4 @@ const Works = () => {
   )
 }
 
-export default SectionWrapper(Works, "")
+export default SectionWrapper(Works, "work")
