@@ -23,6 +23,11 @@ import {
   breadit,
   ecommerce,
   chatbot,
+  cardenas,
+  cardenas2,
+  zotbins,
+  ontrac,
+  ontrac2,
 } from "../assets"
 
 export const navLinks = [
@@ -110,6 +115,47 @@ const technologies = [
   },
 ]
 
+const experiences = [
+  {
+    title: "Cardenas Software Volunteer",
+    company_name: "Cardenas",
+    icon: cardenas,
+    iconBg: "#383E56",
+    date: "January 2022 - April 2022",
+    points: [
+      "Solved and refactored barcode reader code that erroneously duplicated items already in inventory from misprinted barcodes",
+      "Lowered inventorys database entries from ~32,000 to ~29,000",
+      "Migrated desktop functionality over to the handheld devices as well, such as price checking ",
+      "Upgraded UI to make it easier to identify an scanned item as part of the weekly sale",
+    ],
+  },
+  {
+    title: "Software Club Member",
+    company_name: "ZotBins",
+    icon: zotbins,
+    iconBg: "#E6DEDD",
+    date: "March 2022 - May 2022",
+    points: [
+      "Pair-programmed PyTorch models to classify pictures into 3 trash categories for a 95% accuracy rate.",
+      "Assembled and deployed this work onto a serverless codebase and AWS ECR deployment",
+      "Implemented AWS CloudWatch logging for ~80% code coverage, especially for API lambda functions ",
+    ],
+  },
+  {
+    title: "Contracted Software Worker",
+    company_name: "Ontrac",
+    icon: ontrac2,
+    iconBg: "#E6DEDD",
+    date: "May 2022 - April 2023",
+    points: [
+      "Designed and developed a python-based route redistributor tool that lowered misrouted packages by an average of 43%",
+      "Layered a data visualization layer on top of the redistributor tool for a quicker identification process.",
+      "Spearheaded the refactoring of the legacy codebase(VBA) in both python and javascript, reducing code complexity by 35%",
+      "Lowered departure times by an average of 70 minutes as a direct result of package-route assignment improvement",
+    ],
+  },
+]
+
 const projects = [
   {
     name: "Reddit Clone",
@@ -176,4 +222,4 @@ const projects = [
   },
 ]
 
-export { services, technologies, projects }
+export { services, technologies, projects, experiences }

@@ -33,6 +33,11 @@ import tripguide from "./tripguide.png"
 import breadit from "./breadit.png"
 import ecommerce from "./ecommerce.png"
 import chatbot from "./chatbot.png"
+import cardenas from "./cardenas.png"
+import cardenas2 from "./cardenas2.png"
+import zotbins from "./zotbins.png"
+import ontrac from "./ontrac.png"
+import ontrac2 from "./ontrac2.png"
 
 export {
   logo,
@@ -68,4 +73,9 @@ export {
   breadit,
   ecommerce,
   chatbot,
+  cardenas,
+  cardenas2,
+  zotbins,
+  ontrac,
+  ontrac2,
 }
